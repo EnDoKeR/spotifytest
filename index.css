@@ -1,0 +1,59 @@
+
+body{
+   margin: 0px;
+}
+.content{
+   background-image: url(image/foto.jpg);
+   height: 100vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+
+
+}
+.logo{
+   width: 65%;
+   height: 100px;
+   display: inherit; /* передаем значение из родительского блока  */
+   justify-content: space-between; /* размещение элементов в разных частях(по краям)  */
+   align-items: center;
+   margin: 10px 10px 10px 10px;
+
+
+}
+.main-content{
+
+}
+.niz{
+
+}
+
+.lged{  /* редактирование логотипа Spotify */
+   width: 50px;
+   height: 50px;
+   
+   
+   
+}
+
+li{ /* убрали точки */
+   list-style-type:none;
+   
+}
+ul.hr {  /* убрали отступы */
+   margin: 0px; padding:0px;
+}
+ul.hr li{  /* линейное размещение */
+   display: inline;
+}
+
+.logo ul li a {  /* редактирование элементов в маркированном списке */
+   text-decoration: none;  /* убрали нижнее подчеркивание */
+   color: white;
+   margin: 10px;
+   
+}
+
+
